@@ -1,0 +1,47 @@
+.ticTacToe {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #fff;
+    font-size: 42px;
+}
+
+.row {
+    display: flex;
+
+}
+
+.btn {
+    padding: 10px 40px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    
+}
+.messageWinner {
+    font-size: 40px;
+    text-align: center;
+    color: green;
+}
+.messageDraw {
+    font-size: 40px;
+    text-align: center;
+    color: orangered;
+}
+.message {
+    font-size: 40px;
+    text-align: center;
+}

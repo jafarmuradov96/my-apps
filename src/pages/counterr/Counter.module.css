@@ -1,0 +1,28 @@
+.counterArea {
+    width: 400px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.count {
+    font-size: 60px;
+    text-align: center;
+}
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons button {
+    font-size: 50px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
