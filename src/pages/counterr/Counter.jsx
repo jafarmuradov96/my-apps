@@ -2,6 +2,7 @@ import React from 'react';
 import  styles  from './Counter.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { decrement, increment } from '../../redux/feauture/counter/counterSlice';
+import Heading from '../../Components/heading/Heading';
 
 const Counter = () => {
     const dispatch = useDispatch();
@@ -9,7 +10,7 @@ const Counter = () => {
     const count = useSelector(state =>  state.counter.value)
   return (
     <>
-    <h2 style={{textAlign: 'center', fontSize: '60px'}} >Counter</h2>
+    <Heading>Counter</Heading>
     <div className={styles.counterArea} >
       <div className={styles.count}>
         <span>{count}</span>

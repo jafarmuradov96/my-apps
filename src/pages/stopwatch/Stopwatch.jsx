@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Stopwatch.module.css';
+import Heading from '../../Components/heading/Heading';
 
 const Stopwatch = () => {
     const [isRunning, setIsRunning] = useState(false);
@@ -45,7 +46,7 @@ const Stopwatch = () => {
 
   return (
     <>
-    <h2 style={{textAlign: 'center', fontSize: '60px'}} >Stopwatch</h2>
+    <Heading>Stopwatch</Heading>
     <div className={styles.stopwatch}>
         <span>
             {watchTime}

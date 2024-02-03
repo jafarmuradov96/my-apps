@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './TicTacToe.module.css';
 import Button from '../../Components/button/Button';
+import Heading from '../../Components/heading/Heading';
 
 const TicTacToe = () => {
     const [ x, setX] = useState(true);
@@ -51,7 +52,7 @@ const TicTacToe = () => {
 
   return (
     <>
-    <h2 style={{textAlign: 'center', fontSize: '60px'}} >Tic - Tac - Toe</h2>
+    <Heading>Tic - Tac - Toe</Heading>
 
     <div className={styles.ticTacToe}>
         <div className= {styles.row}>
